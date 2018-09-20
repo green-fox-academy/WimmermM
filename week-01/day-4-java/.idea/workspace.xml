@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d15278e-c64d-44a3-9324-81ce2defedc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exercise05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,24 +23,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="8" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="java" value="1054" />
+          <entry key="java" value="1995" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1054" />
+          <entry key="JAVA" value="1995" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
@@ -53,10 +53,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Exercise05.java">
+        <entry file="file://$PROJECT_DIR$/src/Exercise06.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -87,6 +87,7 @@
         <option value="$PROJECT_DIR$/src/Exercise03.java" />
         <option value="$PROJECT_DIR$/src/Exercise04.java" />
         <option value="$PROJECT_DIR$/src/Exercise05.java" />
+        <option value="$PROJECT_DIR$/src/Exercise06.java" />
       </list>
     </option>
   </component>
@@ -151,7 +152,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537437160364" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537444198831" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -171,14 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercise05">
-    <configuration name="Exercise01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise01" />
-      <module name="day-4-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Exercise06">
     <configuration name="Exercise02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercise02" />
       <module name="day-4-java" />
@@ -207,20 +201,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exercise06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise06" />
+      <module name="day-4-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Exercise01" />
       <item itemvalue="Application.Exercise02" />
       <item itemvalue="Application.Exercise03" />
       <item itemvalue="Application.Exercise04" />
       <item itemvalue="Application.Exercise05" />
+      <item itemvalue="Application.Exercise06" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise06" />
         <item itemvalue="Application.Exercise05" />
         <item itemvalue="Application.Exercise04" />
         <item itemvalue="Application.Exercise03" />
         <item itemvalue="Application.Exercise02" />
-        <item itemvalue="Application.Exercise01" />
       </list>
     </recent_temporary>
   </component>
@@ -234,12 +235,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537431714063</updated>
-      <workItem from="1537431717954" duration="5177000" />
+      <workItem from="1537431717954" duration="9351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5177000" />
+    <option name="totallyTimeSpent" value="9351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="98" y="13" width="1400" height="775" extended-state="0" />
@@ -319,8 +320,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercise05.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="323">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise06.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
         </state>
       </provider>
     </entry>
