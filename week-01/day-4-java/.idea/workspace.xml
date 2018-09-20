@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d15278e-c64d-44a3-9324-81ce2defedc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exercise08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise19.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-4-java/Exercise07.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-4-java/Exercise07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise17.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,25 +24,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="2" />
           <entry key="iml" value="3" />
-          <entry key="java" value="27" />
+          <entry key="java" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="27" />
+          <entry key="JAVA" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="java" value="4801" />
+          <entry key="java" value="5115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4801" />
+          <entry key="JAVA" value="5115" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
@@ -63,19 +57,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exercise15.java">
+        <entry file="file://$PROJECT_DIR$/src/Exercise04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+            <state relative-caret-position="17">
+              <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Exercise16.java">
+        <entry file="file://$PROJECT_DIR$/src/Exercise19.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="374">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -117,6 +111,9 @@
         <option value="$PROJECT_DIR$/src/Exercise12.java" />
         <option value="$PROJECT_DIR$/src/Exercise13.java" />
         <option value="$PROJECT_DIR$/src/Exercise16.java" />
+        <option value="$PROJECT_DIR$/src/Exercise17.java" />
+        <option value="$PROJECT_DIR$/src/Exercise18.java" />
+        <option value="$PROJECT_DIR$/src/Exercise19.java" />
       </list>
     </option>
   </component>
@@ -127,10 +124,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="502" />
-    <option name="y" value="138" />
+    <option name="x" value="483" />
+    <option name="y" value="67" />
     <option name="width" value="1339" />
-    <option name="height" value="969" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -181,7 +178,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537456033009" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537457239846" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -201,23 +198,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercise16">
-    <configuration name="Exercise12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise12" />
-      <module name="day-4-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Exercise19">
     <configuration name="Exercise13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercise13" />
-      <module name="day-4-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise14" />
       <module name="day-4-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -237,20 +220,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exercise18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise18" />
+      <module name="day-4-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise19" />
+      <module name="day-4-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Exercise12" />
-      <item itemvalue="Application.Exercise14" />
       <item itemvalue="Application.Exercise15" />
       <item itemvalue="Application.Exercise13" />
       <item itemvalue="Application.Exercise16" />
+      <item itemvalue="Application.Exercise18" />
+      <item itemvalue="Application.Exercise19" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise19" />
+        <item itemvalue="Application.Exercise18" />
         <item itemvalue="Application.Exercise16" />
         <item itemvalue="Application.Exercise15" />
         <item itemvalue="Application.Exercise13" />
-        <item itemvalue="Application.Exercise12" />
-        <item itemvalue="Application.Exercise14" />
       </list>
     </recent_temporary>
   </component>
@@ -264,15 +261,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537431714063</updated>
-      <workItem from="1537431717954" duration="20973000" />
+      <workItem from="1537431717954" duration="22162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20973000" />
+    <option name="totallyTimeSpent" value="22162000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="402" y="111" width="1071" height="775" extended-state="0" />
+    <frame x="387" y="54" width="1071" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -280,7 +277,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3313551" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3313551" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32866043" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -289,7 +286,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32866043" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31166914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -323,13 +320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -396,13 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercise01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -424,17 +407,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise17.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercise16.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/day-4-java/Exercise11.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise18.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/day-4-java/Exercise15.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>
