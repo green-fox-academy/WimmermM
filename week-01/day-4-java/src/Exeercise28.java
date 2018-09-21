@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Exeercise28 {
     // Write a program that reads a number from the standard input, then draws a
 // triangle like this:
@@ -11,9 +13,19 @@ public class Exeercise28 {
 
     public static void main(String[] args) {
 
+        int lines = 0;
+        int height = 5;
+        while (lines<height){
+            System.out.print("*");
+            int counter = 0;
+            while (counter<lines){
+                System.out.print("*");
+                counter = counter +1;
+            }
+            System.out.println();
+            lines = lines +1;
+        }
 
 
-
-        
     }
 }
