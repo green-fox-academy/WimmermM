@@ -29,10 +29,10 @@ public class Exercise21 {
            else if(boys + girls >20 && girls != boys){
             System.out.println("Quite cool party!");  }
 
-            else if (boys + girls < 20){
+            else if (boys + girls < 20 && girls!=0){
             System.out.println("Average party..."); }
 
-            else if(girls==0){
+            else if(girls<=0){
             System.out.println("Sausage party");
         }
 
