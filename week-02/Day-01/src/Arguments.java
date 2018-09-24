@@ -14,14 +14,14 @@ public class Arguments {
 
     public static void main(String[] args) {
 
-        System.out.println(printParams(" First ", "sdadasd", "sdadda"));
+        System.out.println(printParams(" First ", " sdadasd ", " sdadda "));
 
     }
 
 
     public static String printParams (String... words){
 
-        String result = "test";
+        String result = "";
 
         for (String word : words) {
 
