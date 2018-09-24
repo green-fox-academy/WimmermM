@@ -13,9 +13,16 @@ public class Factorial {
 
     }
 
-    public static int factorio (int a, int b, int c, int d, int e){
+    public static int factorio (int ...numbers){
 
-        return(a*b*c*d*e);
+        int result = 1;
+
+        for (int i = 1; i <= numbers.length ; i++) {
+            result *=i;
+
+        }
+
+        return(result);
 
 
 
