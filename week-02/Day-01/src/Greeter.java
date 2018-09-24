@@ -11,14 +11,16 @@ public class Greeter {
 
     public static void main(String[] args) {
 
-        System.out.println(greet());
+        System.out.println(greet(al));
 
     }
 
 
-    public static String greet (){
+    public static String greet (String word){
 
-        return ("Greetings dear ," + al);
+        word = "Greetings dear ,";
+
+        return (word + al);
 
     }
 }
