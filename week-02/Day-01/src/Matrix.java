@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Matrix {
     // - Create (dynamically) a two dimensional array
     //   with the following matrix. Use a loop!
@@ -11,30 +14,36 @@ public class Matrix {
 
     public static void main(String[] args) {
 
-        int[][] matrix = new int[0][1];
+        String[][] matrix = new String[4][4];
 
-        int lenght = 4;
-        int column = 0;
-        int height = 0;
+        for (int i = 0; i < matrix.length; i++) {
 
+            for (int j = 0; j < matrix[i].length; j++) {
 
-        for (int i = 0; i < lenght; i++) {
+                matrix[i][j] = i + " " + j;
 
-            for (int j = 0; j < lenght; j++) {
-                System.out.println(matrix[0]);
-
-                height += j;
             }
 
-            column += i;
-
         }
 
-        if (column==height){
-            System.out.println(matrix[1]);
-        }
-        System.out.println();
+
+        for (int i = 0; i < matrix.length; i++) {
+
+            for (int j = 0; j < matrix[i].length; j++) {
+
+                if (i==j){
+                    System.out.print(" 1 ");
+                }
+                else {
+                    System.out.print(" 0 ");
+                }
+
+            }
+            System.out.println();
+            }
+
     }
 
 
-}
+    }
+
