@@ -20,7 +20,6 @@ public class Matrix {
 
             for (int j = 0; j < matrix[i].length; j++) {
 
-                matrix[i][j] = i + " " + j;
 
             }
 
