@@ -13,8 +13,12 @@ public class TodoPrint {
         //  - Download games
         //      - Diablo
 
-        todoText = todoText.concat(" - Download games \n");
 
-        System.out.println(todoText);
+        String myString = "My todo: \n";
+        todoText = todoText.concat(" - Download games \n");
+        todoText = todoText.concat("    - Diablo");
+
+
+        System.out.println(myString + todoText);
     }
 }
