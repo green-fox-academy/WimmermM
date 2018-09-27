@@ -4,28 +4,16 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class Lineplay {
+public class Quarters {
     public static void mainDraw(Graphics graphics){
-        // draw a red horizontal line to the canvas' middle.
-        // draw a green vertical line to the canvas' middle.
 
 
-
-        for (int i = 0; i < 320; i+=20) {
-
-            graphics.setColor(Color.GREEN);
-            graphics.drawLine(WIDTH -i,HEIGHT,0,HEIGHT-i);
-            graphics.setColor(Color.MAGENTA);
-            graphics.drawLine(0+i,0,WIDTH,i);
-
-
-
-
-        }
 
 
 
     }
+
+
 
     // Don't touch the code below
     static int WIDTH = 320;
@@ -41,6 +29,7 @@ public class Lineplay {
         jFrame.setVisible(true);
         jFrame.pack();
     }
+
     static class ImagePanel extends JPanel {
         @Override
         protected void paintComponent(Graphics graphics) {
