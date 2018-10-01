@@ -19,8 +19,8 @@ public class Exercise12 {
         double surface = (lenght*widht+lenght*widht+lenght*widht);
         double volume = (lenght*widht*height);
 
-        System.out.println("Sourface area: " + surface);
-        System.out.println("Volume :" + volume);
+        System.out.println("Sourface area: " + (int)surface);
+        System.out.println("Volume :" + (int)volume);
 
 
 

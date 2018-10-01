@@ -24,8 +24,8 @@ public class PurpleSteps {
             graphics.fillRect(a,b,c,d);
             graphics.setColor(Color.BLACK);
             graphics.drawRect(a,b,c,d);
-            a+=c;
-            b+=c;
+            a+=13;
+            b+=13;
 
 
         }

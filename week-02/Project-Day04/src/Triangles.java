@@ -4,22 +4,35 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class Envelope {
+public class Triangles {
     public static void mainDraw(Graphics graphics){
 
+        for (int i = 0; i < 160; i++) {
+            for (int j = 0; j < i; j++) {
 
-        for (int i = 0; i < 160; i+=10) {
 
-            graphics.setColor(Color.GREEN);
-            graphics.drawLine(WIDTH/2,i,WIDTH/2 -i,HEIGHT/2);
-            graphics.drawLine(WIDTH/2,i,WIDTH/2 +i,HEIGHT/2);
-            graphics.drawLine(WIDTH/2,HEIGHT-i,WIDTH/2-i,HEIGHT/2);
-            graphics.drawLine(WIDTH/2,HEIGHT-i,WIDTH/2+i,HEIGHT/2);
+            }
 
         }
 
 
+
+
     }
+
+
+    public  static  void triangle (double x, double y, Graphics graphics){
+
+        graphics.setColor(Color.BLACK);
+        graphics.drawLine(x,y,x-10,y+y*0.86);
+        graphics.drawLine(x,y,x+10,y+y*0.86);
+        graphics.drawLine(x-10,y+y*0.86,x+10,y+y*0.86);
+
+
+    }
+
+
+
 
     // Don't touch the code below
     static int WIDTH = 320;
