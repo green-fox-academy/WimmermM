@@ -8,9 +8,10 @@ public class DivideByZero {
 
 
     public static void main(String[] args) {
-
-        int result = divide(3);
-        System.out.println(result);
+        Scanner myScanner = new Scanner(System.in);
+        System.out.println("Add number you want to divide");
+        int userInput1 = myScanner.nextInt();
+        divide(userInput1);
 
     }
 
@@ -18,13 +19,18 @@ public class DivideByZero {
 
     public static Integer divide (int a){
 
-        if (a==0){
 
-            System.out.println("Fail");
-        }
+        try {
 
-      return (10 / a);
+            int result = (10/a);
+            System.out.println("Result is : " + result);
 
+    }
+    catch (Exception e){
+        System.out.println("Fail");
+    }
+
+        return (a);
     }
 
 
