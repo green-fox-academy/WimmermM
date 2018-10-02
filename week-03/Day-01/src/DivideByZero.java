@@ -16,24 +16,20 @@ public class DivideByZero {
     }
 
 
-
-    public static int divide (int a){
+    public static int divide(int a) {
 
 
         try {
 
-            int result = (10/a);
+            int result = (10 / a);
             System.out.println("Result is : " + result);
 
-    }
-    catch (Exception e){
-        System.out.println("Fail");
-    }
+        } catch (Exception e) {
+            System.out.println("Fail");
+        }
 
         return (a);
     }
-
-
 
 
 }

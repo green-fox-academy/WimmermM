@@ -20,7 +20,7 @@ public class CountLines {
     }
 
 
-    public static int fileName (String file){
+    public static int fileName(String file) {
 
         int numberOfLines = 0;
 
@@ -29,16 +29,16 @@ public class CountLines {
 
             Path filePath = Paths.get(file);
             List<String> lines = Files.readAllLines(filePath);
-            for (String line:lines) {
+            for (String line : lines) {
 
                 numberOfLines++;
 
 
             }
 
-        }catch (Exception e){
+        } catch (Exception e) {
 
-            numberOfLines =0;
+            numberOfLines = 0;
         }
 
 

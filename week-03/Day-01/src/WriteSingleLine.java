@@ -18,8 +18,8 @@ public class WriteSingleLine {
             Path filePath = Paths.get("");
             Files.write(filePath, myName);
 
-        }
-        catch (Exception e){
+        } catch (Exception e) {
+
             System.out.println("Unable to write file: my-file.txt");
         }
 
