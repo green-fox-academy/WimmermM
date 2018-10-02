@@ -17,7 +17,7 @@ public class DivideByZero {
 
 
 
-    public static Integer divide (int a){
+    public static int divide (int a){
 
 
         try {

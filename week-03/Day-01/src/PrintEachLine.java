@@ -12,11 +12,11 @@ public class PrintEachLine {
 
         try {
 
-            Path filePath = Paths.get("my-fileeeee.txt");
+            Path filePath = Paths.get("my-file.txt");
             List<String> lines = Files.readAllLines(filePath);
             for (String line:lines) {
                 System.out.println(line);
-                
+
             }
 
         }
