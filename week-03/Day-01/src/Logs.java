@@ -15,62 +15,47 @@ public class Logs {
 
 
     public static void main(String[] args) {
+        System.out.println(getUniqueIps("log.txt").size());
 
-        System.out.println(ratio());
 
-        try {
-            Path filePath = Paths.get("log.txt");
-            List<String>allData = Files.readAllLines(filePath);
-
-        }
-
-        catch (Exception e) {
-
-        }
 
     }
 
 
-
-    public static int ratio (){
-        List<String> get = new ArrayList();
-        int ratioResult =0;
-
+    public static List<String> getUniqueIps(String filename){
+        List<String> uniqueIps = new ArrayList<>();
         try {
-            Path ratioFile = Paths.get("log.txt");
-            List<String> ratioData = Files.readAllLines(ratioFile);
-            for (String ratioValue:ratioData) {
-                ratioValue.contains("GE");
-                get.add(ratioValue);
-
+            List<String> lines = Files.readAllLines(Paths.get(filename));
+            for (String line: lines) {
+                String currentIP = line.split("   ")[1];
+                if (!uniqueIps.contains(currentIP)){
+                    uniqueIps.add(currentIP);
+                }
             }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
-
-        catch (Exception e){
-            
-        }
-
-        for (int i = 0; i < get.size(); i++) {
-            ratioResult = i;
-
-        }
-
-
-
-
-        return ratioResult;
+        return uniqueIps;
     }
 
-
-
-
-
-
-
-
-
-
+    public static List<String> getPostRatio(String filename){
+        int get = 0, post = 0;
+        List<String> uniqueIps = new ArrayList<>();
+        try {
+            List<String> lines = Files.readAllLines(Paths.get(filename));
+            for (String line: lines) {
+                if (line.contains("POST")){
+                    post++;
+                }
+                if (line.contains("GET")){
+                    get++;
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return uniqueIps;
+    }
 
 
 
