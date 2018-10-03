@@ -5,10 +5,6 @@ public class PostIt {
     String textColor;
 
 
-
-
-
-
     public static void main(String[] args) {
 
         PostIt orange = new PostIt();
@@ -27,11 +23,6 @@ public class PostIt {
         yellowObject.textColor = "green";
 
     }
-
-
-
-
-
 
 
 }
