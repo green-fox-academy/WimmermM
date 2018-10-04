@@ -8,7 +8,7 @@ public class SumDigit {
 
         int result = sum(123);
         System.out.println("\n Final result is  " + result);
-        
+
     }
 
 
