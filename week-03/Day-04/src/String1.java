@@ -6,7 +6,7 @@ public class String1 {
     public static void main(String[] args) {
 
         String result;
-        result = computeToX("XerxesxxxxXxXxXx");
+        result = computeToX("XaxaX");
         System.out.println(result);
 
     }
@@ -14,16 +14,16 @@ public class String1 {
     public static String computeToX(String string){
 
 
-        if (string.contains("y")){
+        if (string.contains("x")){
 
-            return string;
+            string.indexOf("x");
+            return string.substring(0,0);
+
         }
 
         else {
-            System.out.println(string);
-            return computeToX(string.replace("x","y"));
+            return string.concat("y") + computeToX(string);
         }
-
 
 
 
