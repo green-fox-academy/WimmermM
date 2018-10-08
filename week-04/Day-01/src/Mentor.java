@@ -7,7 +7,7 @@ public class Mentor extends Person {
         this.level = level;
     }
 
-    public Mentor(){
+    public Mentor() {
         name = "Jon Doe";
         age = 30;
         gender = "female";
@@ -20,17 +20,14 @@ public class Mentor extends Person {
     }
 
 
-
-    public void getGoal(){
+    public void getGoal() {
         System.out.println("Educate brilliant junior software developers.");
     }
 
-    public void introduce(){
-        System.out.println("Hi, I'm  " + name+ " , a " + age +  " year old " + gender + level + " mentor. ");
+    public void introduce() {
+        System.out.println("Hi, I'm  " + name + " , a " + age + " year old " + gender + level + " mentor. ");
 
     }
-
-
 
 
 }

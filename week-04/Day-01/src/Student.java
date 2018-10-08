@@ -1,4 +1,4 @@
-public class Student extends Person{
+public class Student extends Person {
 
 
     String previousOrganization;
@@ -11,9 +11,10 @@ public class Student extends Person{
 //        this.skippedDays = skippedDays;
     }
 
-    public Student(){
+    public Student() {
 
-        previousOrganization = "The School of Life";        name = "Jon Doe";
+        previousOrganization = "The School of Life";
+        name = "Jon Doe";
         age = 30;
         gender = "female";
         skippedDays = 0;
@@ -26,18 +27,17 @@ public class Student extends Person{
     }
 
 
-
-    public void getGoal(){
+    public void getGoal() {
         System.out.println("Be a junior software developer.");
     }
 
-    public void introduce(){
-        System.out.println("Hi, I'm " + name + ", a " + age + " year old " + gender + " from " + previousOrganization +  " who skipped " + skippedDays + " days from the course already. ");
+    public void introduce() {
+        System.out.println("Hi, I'm " + name + ", a " + age + " year old " + gender + " from " + previousOrganization + " who skipped " + skippedDays + " days from the course already. ");
     }
 
-    public void skipDays (int numberOfDays){
+    public void skipDays(int numberOfDays) {
 
-     skippedDays = numberOfDays;
+        skippedDays = numberOfDays;
 
     }
 

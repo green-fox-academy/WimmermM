@@ -7,7 +7,7 @@ public class Sponsor extends Person {
         this.company = company;
     }
 
-    public Sponsor(){
+    public Sponsor() {
         name = "Jon Doe";
         age = 30;
         gender = "female";
@@ -17,15 +17,15 @@ public class Sponsor extends Person {
 
     }
 
-    public void introduce(){
-        System.out.println("Hi, I'm " + name + " , a " + age+  " year old " + gender + " who represents " + company + " and hired "  + hiredStudents + " students so far. ");
+    public void introduce() {
+        System.out.println("Hi, I'm " + name + " , a " + age + " year old " + gender + " who represents " + company + " and hired " + hiredStudents + " students so far. ");
     }
 
-    public void hire(){
-        hiredStudents +=1;
+    public void hire() {
+        hiredStudents += 1;
     }
 
-    public void getGoal(){
+    public void getGoal() {
         System.out.println("Hire brilliant junior software developers.");
     }
 

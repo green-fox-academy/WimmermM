@@ -15,29 +15,21 @@ public class Cohort {
     }
 
 
-    public void addStudents(Student student){
+    public void addStudents(Student student) {
 
         students.add(student);
 
     }
 
-    public void addMentors(Mentor mentor){
+    public void addMentors(Mentor mentor) {
         mentors.add(mentor);
     }
 
 
-
-    public void info(){
+    public void info() {
 
         System.out.println("The " + name + " cohort has " + students.size() + students + "  and " + mentors.size() + mentors + " . ");
     }
-
-
-
-
-
-
-
 
 
 }
