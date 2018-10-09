@@ -23,8 +23,8 @@ public class Main {
         people.add(sponsor);
         Sponsor elon = new Sponsor("Elon Musk", 46, "male", "SpaceX");
         people.add(elon);
-        Student john2 = new Student();
-
+        Student john2 = (Student)john.clone();
+        people.add(john2);
 
         student.skipDays(3);
 
@@ -46,7 +46,9 @@ public class Main {
         awesome.addStudents(john);
         awesome.addMentors(mentor);
         awesome.addMentors(gandhi);
+        awesome.addStudents(john2);
         awesome.info();
+
 
     }
 }

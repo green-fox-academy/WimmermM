@@ -1,4 +1,4 @@
-public class Student extends Person{
+public class Student extends Person implements Cloneable{
 
 
     String previousOrganization;
@@ -41,5 +41,10 @@ public class Student extends Person{
 
     }
 
+
+    public Object clone(){
+
+        return new Student(this.name,this.age,this.gender,this.previousOrganization);
+    }
 
 }
