@@ -22,6 +22,6 @@ public class Domino implements Comparable<Domino>{
 
 
 
-        return  this.toString().compareTo(o.toString());
+        return this.toString().compareTo(o.toString());
     }
 }
