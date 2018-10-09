@@ -15,7 +15,7 @@ public class Gnirts implements CharSequence{
 
     @Override
     public char charAt(int index) {
-        return this.myString.charAt(length()- index);
+        return this.myString.charAt((length()-1)- index);
     }
 
     @Override
