@@ -4,37 +4,34 @@ import java.util.List;
 
 public class Anagram {
 
-    public boolean angram (String a, String b){
+    public boolean angram(String a, String b) {
 
-        if (a.length()!=b.length()){
+        if (a.length() != b.length()) {
             return false;
         }
 
-        char[]aList = a.toCharArray();
-        char[]bList = b.toCharArray();
+        char[] aList = a.toCharArray();
+        char[] bList = b.toCharArray();
         Arrays.sort(aList);
         Arrays.sort(bList);
         boolean correct = true;
 
-        for (int i = 0; i <aList.length ; i++) {
+        for (int i = 0; i < aList.length; i++) {
 
-                if (aList[i]== bList[i]){
+            if (aList[i] == bList[i]) {
 
-                    correct = true;
+                correct = true;
 
-                }
+            } else {
 
-
-                else {
-
-                    correct = false;
-                }
+                correct = false;
             }
-
-
-        return correct;
         }
 
 
+        return correct;
     }
+
+
+}
 
