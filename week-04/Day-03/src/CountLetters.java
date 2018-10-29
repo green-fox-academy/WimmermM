@@ -21,6 +21,8 @@ public class CountLetters {
         return letters;
     }
 
+    public static void main(String[] args) {
+    }
 
 }
 

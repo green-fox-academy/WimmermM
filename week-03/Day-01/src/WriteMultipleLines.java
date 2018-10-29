@@ -41,7 +41,7 @@ public class WriteMultipleLines {
 
 
         } catch (Exception e) {
-
+            System.out.println("Unable to add: no task provided");
 
         }
 
