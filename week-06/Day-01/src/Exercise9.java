@@ -16,8 +16,9 @@ public class Exercise9 {
 
         }
 
-        String myString = myList.stream(). // vytvoreni noveho stringu
-                map(c -> c.toString()). // predelani listu na string
+        String myString = myList.stream().
+                // vytvoreni noveho stringu
+                map(l -> l.toString()). // predelani listu na string
                 collect(Collectors.joining("")); // spojeni stringu dohromadz
         System.out.println(myString); // vytisteni
     }
