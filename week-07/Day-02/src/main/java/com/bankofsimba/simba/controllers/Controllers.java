@@ -37,9 +37,9 @@ public class Controllers {
         List<BankAccount> mylist = new ArrayList<>();
         mylist.add(new BankAccount("Rafiki", 5000, "monkey",false,"true"));
         mylist.add(new BankAccount("Simba", 2000, "lion",true,"true"));
-        mylist.add(new BankAccount("Gopher", 1000, "hyena",false,"true"));
+        mylist.add(new BankAccount("Gopher", 1000, "hyena",false,"false"));
         mylist.add(new BankAccount("Timon", 3000, "meerkat",false,"true"));
-        mylist.add(new BankAccount("Pumbaa", 4000, "warthog",false,"false"));
+        mylist.add(new BankAccount("Pumbaa", 4000, "warthog",false,"true"));
 
         model.addAttribute("list",mylist);
 
