@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Tamagochi</title>
+    <link rel="stylesheet" th:href="@{/style.css}"/>
+    <meta charset="utf-8"/>
+</head>
+
+<body>
+
+<p>
+    <a href="url">Information</a>
+</p>
+
+<p>
+    <img src="images/greenfox.png">
+</p>
+
+<p th:each="fox:${myFox}" th:text="'This is ' + ${myFox}  + ' Currently on salad and water. He knows 0 tricks.'"></p>
+
+
+<h1>Known tricks</h1>
+<p>
+    write HTML
+</p>
+<p>
+    code in java
+</p>
+
+
+</body>
+</html>
