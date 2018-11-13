@@ -9,14 +9,20 @@
 <body>
 
 <p>
-    <a href="url">Information</a>
+    <a href="">Information</a>
 </p>
 
 <p>
-    <img src="images/greenfox.png">
+    <img src="/static/images/greenfox.png">
 </p>
 
-<p th:each="fox:${myFox}" th:text="'This is ' + ${myFox}  + ' Currently on salad and water. He knows 0 tricks.'"></p>
+
+
+
+<div th:switch="${tricknumber}">
+<div th:case="*" th:text="'This is ' + ${myFox} + ' Currently on salad and water. He knows ' + ${tricknumber} + ' tricks.'"></div>
+<div th:case="'false'" th:text="'This is ' + ${myFox} + ' You know no tricks yet, go and learn some!'"></div>
+</div>
 
 
 <h1>Known tricks</h1>

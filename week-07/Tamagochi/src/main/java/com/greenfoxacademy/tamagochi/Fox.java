@@ -5,6 +5,7 @@ public class Fox {
 
     String name;
 
+
     public Fox(String name) {
         this.name = name;
     }
