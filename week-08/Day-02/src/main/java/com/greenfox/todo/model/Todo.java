@@ -1,11 +1,19 @@
 package com.greenfox.todo.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import org.hibernate.annotations.CreationTimestamp;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import javax.persistence.*;
+import java.text.Format;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
 
 @Entity
 public class Todo {
+
 
     @Id
     @GeneratedValue
@@ -13,15 +21,47 @@ public class Todo {
     String title;
     boolean urgent;
     boolean done;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @Temporal(TemporalType.TIMESTAMP)
+    Date dueDate;
+    @Temporal(TemporalType.TIMESTAMP)
+    @CreationTimestamp
+    Date creationDate;
+
 
     public Todo() {
 
     }
 
-    public Todo(String title) {
+    public Date getDueDate() {
+        return dueDate;
+    }
+
+    public void setDueDate(Date dueDate) {
+        this.dueDate = dueDate;
+    }
+
+//    public String dateToString(){
+//        String dayString = getDueDate().toString();
+//        String timeString = dayString.substring(0,10);
+//
+//        return timeString;
+//    }
+
+    public Date getCreationDate() {
+        return creationDate;
+    }
+
+    public void setCreationDate(Date creationDate) {
+        this.creationDate = creationDate;
+    }
+
+    public Todo(String title, Date dueDate, boolean urgent) {
         this.title = title;
-        this.urgent = false;
+        this.urgent = urgent;
         this.done = false;
+        this.dueDate = dueDate;
+        this.creationDate = creationDate;
     }
 
     public long getId() {

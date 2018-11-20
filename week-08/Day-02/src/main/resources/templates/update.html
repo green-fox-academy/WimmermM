@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/stylesheet.css">
+    <title>Update</title>
+</head>
+<body>
+
+<h1>Update your Todo</h1>
+
+<form th:method="post" th:object="${todo}" th:action="'/todo/' + *{id}+ '/update'">
+    <label for="updateTodoText" th:text="'New title:'"></label>
+    <input id="updateTodoText" th:field="*{title}" type="text">
+
+    <label for="dueDate" th:text="'New Due Date'"></label>
+    <input id="dueDate" th:field="*{dueDate}" type="date">
+
+    <label for="isDone" th:text="'Is the task done?'"></label>
+    <input id="isDone" type="checkbox" th:field="*{done}" value="true" checked>
+
+
+    <button type="submit" th:text="'Submit'"></button>
+</form>
+
+</body>
+</html>

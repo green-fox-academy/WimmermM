@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Todo</title>
+    <link href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
+    <link th:rel="'stylesheet'" th:type="'text/css'" th:href="'/stylesheet.css'"/>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<h1>Add new Todo!</h1>
+<form th:method="post" th:action="'/todo/add'">
+    <label for="Todo" th:text="'our todo name'"></label>
+    <input id="Todo" type="text" name="title">
+    <label for="DuDate" th:text="'Set Due Date'"></label>
+    <input id="DuDate" type="date" name="dueDate">
+    <label for="checkBox" th:text="'Is this urgent?'"></label>
+    <input id="checkBox" type="checkbox" name="urgent" value="true" checked>
+    <input type="submit" value="Submit">
+
+
+</form>
+
+
+</body>
+</html>

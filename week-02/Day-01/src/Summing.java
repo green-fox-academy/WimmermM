@@ -15,7 +15,7 @@ public class Summing {
 
         int sum =0;
 
-        for (int i = 0; i < a; i++) {
+        for (int i = 0; i <= a; i++) {
 
             sum += i;
         }
